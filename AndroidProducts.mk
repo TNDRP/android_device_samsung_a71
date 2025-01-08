@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_a71.mk
+	$(LOCAL_DIR)/twrp_a71.mk

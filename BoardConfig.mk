@@ -10,7 +10,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-PLATFORM_VERSION := 11
+PLATFORM_VERSION := 13
 
 DEVICE_PATH := device/samsung/a71
 
@@ -61,7 +61,7 @@ TARGET_OTA_ASSERT_DEVICE := a71
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 TARGET_COPY_OUT_VENDOR := vendor
-PLATFORM_SECURITY_PATCH := 2021-02-01
+PLATFORM_SECURITY_PATCH := 2099-02-01
 
 TW_THEME := portrait_hdpi
 
@@ -81,6 +81,7 @@ TW_EXTRA_LANGUAGES := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+TW_DEVICE_VERSION := MrFluffyOven_001
 
 BOARD_KERNEL_IMAGE_NAME := Image
 

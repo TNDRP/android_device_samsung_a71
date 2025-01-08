@@ -21,7 +21,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_a71
+PRODUCT_NAME := twrp_a71
 PRODUCT_DEVICE := a71
 PRODUCT_MODEL := SM-A715F
 PRODUCT_BRAND := samsung
